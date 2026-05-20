@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>First Table Creation</title>
+<style>
+    table,th,td{
+        border: 1px solid black;
+        border-color:blue;
+        border-radius:10px;
+        border-style:inset;
+        border-collapse:collapse;
+    }
+    th,td{
+        padding-top:10px;
+        padding-bottom:20px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+    th:nth-child(even),
+    td:nth-child(even){
+        background-color:rgb(252, 219, 6);
+    }
+    th:nth-child(odd),
+    td:nth-child(odd){
+        background-color:rgb(255, 204, 65);
+    }
+
+</style>
+</head>
+<body>
+    <table style="width: 10px;">
+    <thead>
+    <tr>
+        <th>Phone no</th>
+        <th>Email ID</th>
+        <th>User Name</th>
+        <th>Designation</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>9009092828</td>
+        <td>Kamesh@gmail.com</td>
+        <td style="background-color: green">Kamesh</td>
+        <td>Chennai</td>
+    </tr>
+
+        <tr>
+        <td>9009092822</td>
+        <td>Ramesh@gmail.com</td>
+        <td style="background-color:aqua">Ramesh</td>
+        <td>Madurai</td>
+    </tr>
+
+        <tr>
+        <td>9009092830</td>
+        <td>Ganesh12@gmail.com</td>
+        <td style="background-color:lightsalmon">Ganesh</td>
+        <td>Chennai</td>
+    </tr>
+
+        <tr>
+        <td>9009092840</td>
+        <td style="background-color:violet">Lokesh@gmail.com</td>
+        <td>Lokesh</td>
+        <td>Kolathur</td>
+    </tr>
+
+        <tr>
+        <td style="background-color:red">9009092850</td>
+        <td>Priya2005@gmail.com</td>
+        <td>Priya</td>
+        <td style="background-color:red">Rajapalayam</td>
+    </tr>
+
+        <tr>
+        <td>9009092890</td>
+        <td>kasturi97@gmail.com</td>
+        <td style="background-color:blue">Kasturi</td>
+        <td>Chennai</td>
+    </tr>
+    </tbody>
+    </table>
+
+    
+</body>
+</html>
